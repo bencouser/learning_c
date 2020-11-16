@@ -9,6 +9,10 @@ int main(){
   double * pGpa = &gpa;
   char grade = 'A';
   char * pGrade = &grade;
+  
+  /* derefferencing */
+  printf("%d\n", *pAge);
+  printf(%d\n", *&*&age);
 
   printf("age: %p\ngpa: %p\ngrade: %p\n", &age, &gpa, &grade);
 
